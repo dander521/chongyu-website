@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shaanxi Chonyu Import And Export Co., Ltd</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Custom Theme files -->
+  <!--theme style-->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <script src="js/jquery.min.js"></script>
+
+  <!--//theme style-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+  <!-- start menu -->
+  <script src="js/simpleCart.min.js"></script>
+  <!-- start menu -->
+  <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+  <script type="text/javascript" src="js/memenu.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".memenu").memenu();
+    });
+  </script>
+  <style>
+    .container .title {
+      text-align: center;
+      font-size: 2.5em;
+      color: #333;
+      font-weight: 900;
+      font-family: "Dosis-Medium";
+    }
+
+    .box {
+      margin-bottom: 2em;
+      background-color: #f5f5f5;
+    }
+
+    .callbacks li>div {
+      /* min-height: auto !important; */
+      /* height: 450px; */
+      min-height: 545px;
+    }
+
+    .callbacks li>div .banner-info {
+      top: 30%;
+    }
+
+    .images {
+      margin-top: 20px;
+    }
+
+    .images li {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    /* #images li:last-child{} */
+    .images li img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .href {
+      cursor: pointer;
+      color: #337ab7;
+    }
+
+    .BanknoteBtn {
+      color: #8a8a8a
+    }
+
+    .BanknoteBtn:focus {
+      color: #1a1a1a
+    }
+
+    .NitrocelluloseBtn {
+      color: #8a8a8a
+    }
+
+    .NitrocelluloseBtn:focus {
+      color: #1a1a1a
+    }
+
+    .celluloseBtn {
+      color: #8a8a8a
+    }
+
+    .celluloseBtn:focus {
+      color: #1a1a1a
+    }
+
+    /* 容器样式 */
+    .box1 {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      /* 确保子元素宽度拉伸至容器宽度 */
+    }
+
+    /* 图片盒子样式 */
+    .image-box {
+      margin: 5px;
+      /* 减少外边距以确保图片能够更好地填充容器 */
+    }
+
+    /* 大图样式 */
+    .top-image img,
+    .bottom-image img {
+      width: calc(100% + 25px);
+      max-width: none;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* 底部三个div并列显示 */
+    .bottom-images {
+      display: flex;
+      justify-content: space-between;
+      /* 在可能的情况下，均匀分布空间 */
+    }
+
+    /* 小图样式 */
+    .bottom-image img {
+      width: 80%;
+      /* height: 150px; */
+    }
+
+    @media screen and (min-width: 768px) {
+      .bottom-images {
+        display: flex;
+      }
+
+      .bottom-image {
+        flex: 1;
+        /* 允许底部图片等分剩余空间 */
+      /*  max-width: calc(33.333% - 20px); */
+        /* 根据margin调整最大宽度 */
+      }
+
+      .bottom-image:nth-child(2) {
+        margin: 5px;
+        /* 中间的图片保持和其他图片一样的外边距 */
+      }
+    }
+
+    .box3 ul,
+    .text-content ul {
+      list-style-type: none;
+      /* 移除默认的项目符号 */
+      padding-left: 150;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .box3 li::before,
+    .text-content li::before {
+      content: "*";
+      /* 使用指定字符作为新项目符号 */
+      padding-right: 10px;
+      /* 给字符和文本之间添加一些空间 */
+    }
+
+    .container2 {
+      display: flex;
+      width: 60%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* 横向填满父容器 */
+    }
+
+    .container2 img {
+      height: 100%;
+      /* 图片高度与.container2相同，使图片高度充满该div */
+      width: auto;
+      /* 宽度自动调整以保持图片的宽高比 */
+      flex-grow: 1;
+      /* 让图片有相同的宽度分布空间 */
+      object-fit: contain;
+      padding-left: 10px;
+      /* 确保图片在保持其比例的同时填充整个区域 */
+    }
+
+    /* 确保两个图片的高度相等 */
+    .container2 img:first-child {
+      margin-right: auto;
+      min-width: 0;
+      /* 第一个图片尽可能靠左 */
+    }
+
+    .container2 img:last-child {
+      margin-left: auto;
+      min-width: 0;
+      padding-left: 50px;
+      /* 第二个图片尽可能靠右 */
+    }
+
+    .box2 {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .right-section {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .text-content, .image-content {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .left-section {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .long-image {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+    }
+
+    .right-section {
+      justify-content: space-between;
+      /* 确保内部元素之间有足够的空间 */
+    }
+
+    .image-content-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      /* 将内容推到容器底部 */
+      height: 100%;
+      /* 让这个容器占据右侧部分的所有可用空间 */
+    }
+
+    .image-content,
+    .bottom-images {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .middle-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .bottom-images {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bottom-images2 {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+    }
+
+    .left-bottom-image,
+    .right-bottom-image {
+      /* width: 30%; */
+      height: auto;
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+
+    .text-content {
+      margin-bottom: -280px;
+      padding-left: 10px;
+      padding-top: 10px;
+      z-index: 1;
+    }
+
+    .bottom-footer {
+      left: 0;
+      right: 0;
+    }
+
+    .m_2, .tab3 .sort, .tab2 .sort, .tab5 .sort {
+      text-align: left;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .m_2.active, .tab3.active .sort, .tab2.active .sort, .tab5.active .sort {
+      background: #e08a00;
+      color: #fff;
+    }
+
+    .m_2:hover, .tab3:hover .sort, .tab2:hover .sort, .tab5:hover .sort {
+      background: #F19533;
+      color: #fff;
+    }
+
+    .product_right {
+      padding: 15px 0;
+    }
+
+    .tab3, .tab2, .tab5 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .tab3 ul, .tab2 ul, .tab5 ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    .m_2 {
+      margin-bottom: 20px;
+      background: none !important;
+      color: #333 !important;
+      transition: color 0.2s;
+    }
+
+    .m_2:hover {
+      background: none !important;
+      color: #F19533 !important;
+    }
+  </style>
+  <!-- /start menu -->
+</head>
+
+<body>
+  <!--header-->
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+        auto: true,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        pager: false,
+      });
+    });
+  </script>
+
+  <div class="header-top">
+    <div class="header-bottom">
+      <div class="logo">
+        <h1><a href="index.html">Chonyu</a></h1>
+      </div>
+      <!---->
+      <div class="top-nav">
+        <ul class="memenu skyblue">
+          <li class="grid"><a href="index.html">Home</a></li>
+          <li class="grid"><a href="about.html">About Us</a></li>
+          <li class="active">
+            <a href="#">Product</a>
+            <div class="mepanel">
+              <div class="row">
+                <div class="col1 me-one">
+                  <h4><a href="cotton-cellulose.html">Cotton Cellulose</a></h4>
+                </div>
+                <div class="col1 me-one">
+                  <h4><a href="chemicals.html">Chemicals</a></h4>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="grid">
+            <a href="certifications.html">Certifications</a>
+          </li>
+          <li class="grid"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  </div>
+
+  <script src="js/bootstrap.js"></script>
+  
+
+  <div style="display: flex; justify-content: center; width: 100%;">
+    <div style="width: 80%;">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Cotton Cellulose</li>
+      </ol>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center; width: 100%;">
+    <div class="container content-wrap" style="display: flex; gap: 30px; padding: 20px; margin-top: 10px;width: 80%;">
+    
+      <div class="rsidebar span_1_of_left">
+        <section class="sky-form">
+          <div class="product_right">
+            <h4 class="m_2">Cotton Cellulose
+            </h4>
+  
+            <div class="tab3">
+              <ul class="place">
+                <li class="sort href">Nitrocellulose</li>
+                <div class="clearfix"></div>
+              </ul>
+            </div>
+            <div class="tab2">
+              <ul class="place">
+                <li class="sort href">Banknote & Security Paper</li>
+                <div class="clearfix"></div>
+              </ul>
+            </div>
+  
+            <div class="tab5">
+              <ul class="place">
+                <li class="sort href">Other Cellulose Ester & Acetate</li>
+                <div class="clearfix"></div>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-9 ">
+        <div class="box1">
+          <!-- 上面的大图 -->
+          <div class="image-box top-image">
+            <img src="images/cotton/co1.jpg">
+          </div>
+          <div class="image-box bottom-image" style="margin:0;padding:0;">
+            <img src="images/cotton/co_mix.jpg" style="width:100%;display:block;margin:0 auto;">
+          </div>
+        </div>
+        <div class="box2">
+          <div class="right-section" style="display: flex; flex-direction: column;">
+            <div class="text-content" style="margin-bottom: 40px;">
+              <h4 style="font-size: 16px; margin-left: 35px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Around the worlds, many countries still use cotton cellulose to make their banknote and security paper. by
+                using three major types of cotton cellulose.</h4>
+              <ul>
+                <li>Cotton Pulp</li>
+                <li>Cotton Comber Pulp</li>
+                <li>Cotton Linter Pulp</li>
+              </ul>
+            </div>
+            <div class="image-content"">
+              <img src="images/bank/bank_mix.png" alt="bank_mix" class="middle-image" style="width:100%;height:100%;">
+            </div>
+          </div>
+        </div>
+        <div class="box3">
+          <h4 style="font-size: 16px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are three major grades of Cotton Linter for producing
+            Nitrocellulose:
+          </h4>
+          <ul>
+            <li>Nitrocellulose Lacquer Grade</li>
+            <li>Nitrocellulose Propellant Grade</li>
+            <li>Nitrocellulose Dynamite Grade</li>
+          </ul>
+          <div class="container2">
+            <img src="images/nitro/n_mix.png" style="width:100%;height:auto;display:block;">
+          </div>
+        </div>
+        <div class="box5" style="width:100%;padding:0;margin:0;display:flex;flex-direction:column;">
+          <div class="box5-text" style="margin-bottom:20px;width:100%;">
+            <h4 style="font-size: 16px; ">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cotton linter is used to produce a wide range of products, such as CMC,
+              MC, HPMC, HEC, AC, and viscose fibers,
+              etc. These modified cellulose are used everywhere in our daily life.
+            </h4>
+          </div>
+          <div class="box5-img" style="width:100%;">
+            <img src="images/other/other.png" alt="other" style="width:100%;height:auto;display:block;">
+          </div>
+        </div>
+  
+        <div class="box4">
+          <h4>
+            There are two major applications for Nitrocellulose. One is lacquer
+            and ink, the other is Propellant and Dynamite
+          </h4>
+          <ul class="images">
+            <li><img src="images/bnr3.jpg" alt="Picture 3" /></li>
+            <li><img src="images/bnr.jpg" alt="Picture 1" /></li>
+            <li><img src="images/bnr2.jpg" alt="Picture 2" /></li>
+          </ul>
+        </div>
+      </div>
+      <!--script-->
+      <script>
+        $(document).ready(function () {
+          $(".tab3 .single-bottom").hide();
+          $(".box2, .box3, .box4, .box5").hide();
+          
+          // Set default selected state
+          $(".m_2").addClass("active");
+          $(".box1").show();
+  
+          $(".m_2").click(function () {
+            $(".m_2, .tab2, .tab3, .tab5").removeClass("active");
+            $(this).addClass("active");
+            $(".box1").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box2, .box3, .box4, .box5").hide();
+            positionFooter();
+          });
+          $(".tab2 ul").click(function () {
+            $(".m_2, .tab2, .tab3, .tab5").removeClass("active");
+            $(".tab2").addClass("active");
+            $(".box2").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box1, .box3, .box4, .box5").hide();
+            positionFooter();
+          });
+          $(".tab3 ul").click(function () {
+            $(".m_2, .tab2, .tab3, .tab5").removeClass("active");
+            $(".tab3").addClass("active");
+            $(".box3").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box1, .box2, .box4, .box5").hide();
+            positionFooter();
+          });
+  
+          $(".tab5 ul").click(function () {
+            $(".m_2, .tab2, .tab3, .tab5").removeClass("active");
+            $(".tab5").addClass("active");
+            $(".box5").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box1, .box2, .box3, .box4").hide();
+            positionFooter();
+          });
+  
+          $(".tab4 ul").click(function () {
+            $(".tab3 .single-bottom").slideToggle(300);
+            positionFooter();
+          });
+  
+          $("#paints").click(function () {
+            $(".box3").show();
+            $(".box1, .box2, .box4").hide();
+            positionFooter();
+          });
+  
+          $("#propellant").click(function () {
+            $(".box4").show();
+            $(".box1, .box2, .box3").hide();
+            positionFooter();
+          });
+  
+          $(".BanknoteBtn").on('click', function () {
+            $(".box1").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box2, .box3, .box4").hide();
+            positionFooter();
+          })
+          $(".NitrocelluloseBtn").on('click', function () {
+            $(".box2").show();
+            $(".tab3 .single-bottom").hide();
+            $(".box1, .box3, .box4").hide();
+            positionFooter();
+          })
+          $(".celluloseBtn").on('click', function () {
+            $(".box3").show();
+  
+            $(".tab3 .single-bottom").hide();
+            $(".box1, .box2, .box4").hide();
+  
+            positionFooter();
+          })
+        });
+      </script>
+    </div>
+  </div>
+  <div class="copywrite bottom-footer">
+    <div class="container">
+      <div class="copy">
+        <p>
+          Copyright © 2025.Shaanxi Chonyu Import And Export Co., Ltd All rights reserved. 
+        </p>
+      </div>
+      <div class="social">
+        <!-- <a href="#"><i class="facebook"></i></a>
+          <a href="#"><i class="twitter"></i></a>
+          <a href="#"><i class="dribble"></i></a>
+          <a href="#"><i class="google"></i></a>
+          <a href="#"><i class="youtube"></i></a> -->
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!---->
+  <script src="js/bottom.js"></script>
+</body>
+
+</html>
